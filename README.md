@@ -1,4 +1,5 @@
 "# Inventario-Productos" 
+
 Se adjunta comprimido con los detalles de la prueba:
 1 - Proyecto de Visual Studio
 2 - Script de bases de datos
