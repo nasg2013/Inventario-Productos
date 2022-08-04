@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container">
+    <div class="row m-5 table-success">
+        <div class="col-6">            
+            <form >
+                <div class="mb-3">
+                    <label for="inputName" class="form-label">Nombre producto</label>
+                    <input type="text" class="form-control" id="inputName">
+                    <p id="name-validate" class="invalidClass"></p>    
+                </div>
+
+                <div class="mb-3">
+                    <label for="selectType" class="form-label">Tipo</label>
+                    <select class="form-select" id="selectType">
+                        <option value="0">Default</option>      
+                    </select>
+                </div>
+ 
+                <div class="mb-3">
+                    <label for="selectPriceType" class="form-label">Tipo Precio</label>
+                    <select class="form-select" id="selectPriceType">
+                        <option value="0">Default</option>  
+                    </select>
+              </div>
+
+              <div class="mb-3">
+                    <label for="inputQuantity" class="form-label">Cantidad</label>
+                    <input type="number" class="form-control" id="inputQuantity" >  
+                    <p id="quantity-validate" class="invalidClass"></p>
+              </div>
+              <div class="mb-3">
+                    <label for="inputPrice" class="form-label">Precio</label>
+                    <input type="number" class="form-control" id="inputPrice">  
+                    <p id="price-validate" class="invalidClass"></p>
+              </div>
+  
+              <button type="button" class="btn btn-success"  id="form-product-submit" onclick="return AddProduct()" >Guardar</button>
+              <br />
+              <p id="message-validate" class="invalidClass"></p>
+    </form>
+
+        </div>
+
+    </div>
+    
+</div>
+
